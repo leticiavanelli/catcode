@@ -1,0 +1,97 @@
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px black;
+    color: black;
+    background-color: antiquewhite;
+}
+
+span{
+    color: honeydew;
+}
+.logogato{
+    width: 50px;
+    margin-left: -5%;
+}
+input {
+    border-radius: 1000px;
+    border: none;
+    width: 90px;
+    text-align: center;
+}
+
+.navegacao {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px 380px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    font-size: 50px;
+    padding: 180px;
+}
+
+button {
+    margin-top: 100px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    height: 40px;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: blanchedalmond;
+    transition: 0.3s;
+    box-shadow: 1px 1px 5px black;
+}
+
+#res{
+    margin-top: 30px;
+   
+}
+
+.imagem1{
+    justify-content: center;
+    margin-left: 50vh;
+    width: 400px;
+   
+}
+.imagem2{
+    display: flex;
+    align-items: center;
+    margin-left: 40vh;
+    width: 400px;
+    
+}
+
+.conteudo {
+    margin: 50px 100px;
+}
+
+.texto {
+    text-align: justify;
+}
+.rodape{
+    background-color: darkcyan;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sgbd{
+    font-size: larger;
+    color: black;
+}
+.der{
+    border-radius: 60px;
+}
+.mer{
+    border-radius: 60px;
+}

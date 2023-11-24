@@ -1,0 +1,87 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+}
+
+
+span{
+    color: honeydew;
+}
+
+
+input {
+    border-radius: 1000px;
+    border: none;
+    width: 90px;
+    text-align: center;
+}
+
+.navegacao {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px 380px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    font-size: 50px;
+    padding: 200px;
+}
+
+button {
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    height: 40px;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+
+button:hover{
+    background-color: blanchedalmond;
+    transition: 0.3s;
+    box-shadow: 1px 1px 5px black;
+}
+
+
+#res{
+    margin-top: 30px;
+   
+}
+.der{
+    width: 400px;
+    height: 150px;
+    
+}
+.mer{
+    width: 400px;
+    height: 150px;
+}
+.rodape{
+    background-color: darkcyan;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main img{
+    border-radius: 60px;
+}
+
+.imagensServico {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    height: 380px;
+    border-radius: 60px;
+}
